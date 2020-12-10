@@ -1,0 +1,15 @@
+body{
+    background-position: 0; 
+    color: whitesmoke;
+}
+.header{
+    background-color:#ffffff;
+    position: fixed;
+    padding-top: 0.15cm;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #CFD3C9;
+}
