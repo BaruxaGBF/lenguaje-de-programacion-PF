@@ -14,44 +14,60 @@ body{
     right: 0;
     border-style: inset;
     border-width: 1px;
+    border-top: white;
     border-color: #CFD3C9;
 }
 
 .header div #documentacion{
     position: fixed;
     top: 0.25cm;
-    margin-left: 7cm;
+    margin-left: 0cm;
+}
+
+body #contenedor-botones{
+    background-color: #ffffff;
+    position: fixed;
+    top: 1.38cm;
+    left: 0;
+    right: 0;
+    border-style: inset;
+    border-width: 1px;
+    border-color:#CFD3C9;
+    border-top: white;
+    padding-top: 0.3cm;
+    height: 1.1cm;
 }
 
 .contenedor{
-    margin-top: 3cm;
+    margin-top: 5cm;
 }
 
-textarea{
-    border-color: gray;
-    width: 97%;
-    min-height: 200px;
-    padding: 0.5cm;
-    font-size: 18px;
+#b-lenguaje{
+    height: 30px;
+    width: 100px;
+    background-color:rgb(98, 216, 98);
     font-family: tahoma;
+    font-size: 18px;
+    border-radius: 5px;
+    border:solid 2px rgb(98, 216, 98);
 }
 
-.line{
-    line-height: 3px;
+#b-documentacion{
+    height: 30px;
+    width: 150px;
+    background-color: burlywood;
+    font-family: tahoma;
+    font-size: 18px;
+    border-radius: 5px;
+    border:solid 2px burlywood;
 }
 
-.noscroll{
-    overflow: hidden;
+#inputprincipal{
     resize: none;
-}
-
-.hiddendiv{
-    display: none;
-    white-space: pre-wrap;
-    width: 97%;
+    border-color: gray;
+    width: 45%;
     min-height: 200px;
     padding: 0.5cm;
     font-size: 18px;
     font-family: tahoma;
-    word-wrap: break-word;
-  }
+}
