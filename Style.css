@@ -2,6 +2,7 @@ body{
     background-position: 0; 
     color: whitesmoke;
 }
+
 .header{
     background-color:#ffffff;
     position: fixed;
@@ -26,13 +27,31 @@ body{
     margin-top: 3cm;
 }
 
-#input-principal{
+textarea{
     border-color: gray;
-    width: 600px;
-    height: 600px;
+    width: 97%;
+    min-height: 200px;
     padding: 0.5cm;
-    resize: none;
     font-size: 18px;
     font-family: tahoma;
-    resize:none;
 }
+
+.line{
+    line-height: 3px;
+}
+
+.noscroll{
+    overflow: hidden;
+    resize: none;
+}
+
+.hiddendiv{
+    display: none;
+    white-space: pre-wrap;
+    width: 97%;
+    min-height: 200px;
+    padding: 0.5cm;
+    font-size: 18px;
+    font-family: tahoma;
+    word-wrap: break-word;
+  }
