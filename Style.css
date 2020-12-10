@@ -5,7 +5,8 @@ body{
 .header{
     background-color:#ffffff;
     position: fixed;
-    padding-left: 0.10cm;
+    height: 1.2cm;
+    padding-left: 0.30cm;
     padding-top: 0.15cm;
     top: 0;
     left: 0;
@@ -15,10 +16,19 @@ body{
     border-color: #CFD3C9;
 }
 
+.header div #documentacion{
+    position: fixed;
+    top: 0.25cm;
+    margin-left: 7cm;
+}
+
+.contenedor{
+    margin-top: 3cm;
+}
+
 #input-principal{
     border-color: gray;
     width: 600px;
-    margin-top: 3cm;
     height: 600px;
     padding: 0.5cm;
     resize: none;
