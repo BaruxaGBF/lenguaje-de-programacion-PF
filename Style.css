@@ -5,6 +5,7 @@ body{
 .header{
     background-color:#ffffff;
     position: fixed;
+    padding-left: 0.10cm;
     padding-top: 0.15cm;
     top: 0;
     left: 0;
@@ -12,4 +13,16 @@ body{
     border-style: inset;
     border-width: 1px;
     border-color: #CFD3C9;
+}
+
+#input-principal{
+    border-color: gray;
+    width: 600px;
+    margin-top: 3cm;
+    height: 600px;
+    padding: 0.5cm;
+    resize: none;
+    font-size: 18px;
+    font-family: tahoma;
+    resize:none;
 }
