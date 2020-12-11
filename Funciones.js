@@ -3,8 +3,7 @@ function documentacion(){
 }
 
 
-function Validar(){
-    console.log("operando");
+function interpretar(){
     try {
         Comp.parse(document.getElementById("inputprincipal").value);
         document.getElementById("inputprincipal").style.border="solid 1px blue";//cammbia de color si es correcto el textarea
@@ -14,7 +13,7 @@ function Validar(){
 
 }
 
-function cargar(){
+function prueba(){
     var CodigoP=
     "algoritmo prueba(){\n"+
     "   Tdato p<- 4;\n" +

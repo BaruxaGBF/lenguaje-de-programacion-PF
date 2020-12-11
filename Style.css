@@ -42,15 +42,25 @@ body #contenedor-botones{
     margin-top: 5cm;
 }
 
-#b-lenguaje{
+#b-interpretar{
     margin-left: 3cm;
     height: 30px;
-    width: 100px;
+    width: 120px;
     background-color:rgb(98, 216, 98);
     font-family: tahoma;
     font-size: 18px;
     border-radius: 5px;
     border:solid 2px rgb(98, 216, 98);
+}
+
+#b-prueba{
+    height: 30px;
+    width: 170px;
+    background-color: #9999FF;
+    font-family: tahoma;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 2px#9999FF;
 }
 
 #b-documentacion{
@@ -63,11 +73,12 @@ body #contenedor-botones{
     border:solid 2px burlywood;
 }
 
-#b-documentacion, #b-lenguaje{
+#b-documentacion, #b-interpretar, #b-prueba{
     margin: 0 0.3cm;
 }
 
 #inputprincipal{
+    border-radius: 12px;
     resize: none;
     border-color: gray;
     width: 45%;
@@ -75,4 +86,50 @@ body #contenedor-botones{
     padding: 0.5cm;
     font-size: 18px;
     font-family: tahoma;
+}
+
+/* codigo de la pagina de Documentacion.html */
+
+body #contenedor-b-enlaces{
+    background-color: #ffffff;
+    position: fixed;
+    top: 1.38cm;
+    left: 0;
+    right: 0;
+    border-style: inset;
+    border-width: 1px;
+    border-color:#CFD3C9;
+    border-top: white;
+    padding-top: 0.3cm;
+    height: 1.1cm;
+}
+
+#contenedor-documentacion{
+    margin-top: 5cm;
+}
+
+h1{
+    margin-left: 23.5%;
+    font-size: 26px;
+    font-family: tahoma;
+    color: black;
+    margin-bottom: 3cm;
+}
+
+h2{
+    margin-left: 2cm;
+    font-size: 22px;
+    font-family: tahoma;
+    color: black;
+}
+
+h3{
+    margin-left: 2cm;
+    font-size: 20px;
+    font-family: Calibri;
+    color: rgb(41, 41, 41); 
+}
+
+#contenedor-documentacion img{
+    margin-left: 2cm;
 }

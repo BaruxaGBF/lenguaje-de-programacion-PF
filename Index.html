@@ -7,6 +7,7 @@
     <script src="/Gram/parser.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="imagenes/favicon.ico">
     <title>Intérprete</title>
 </head>
 <body>
@@ -16,13 +17,12 @@
         </div>
     </header>
     <div id="contenedor-botones">
-        <button id="b-lenguaje" onclick="lenguaje()">Interpretar</button>
+        <button id="b-interpretar" onclick="interpretar()">Interpretar</button>
+        <button id="b-prueba" onclick="prueba()">Código de prueba</button>
         <button id="b-documentacion" onclick="documentacion()">Documentacion</button>
     </div>
     <div class="contenedor">      
         <textarea id="inputprincipal"></textarea>
-        <button onclick="Validar()">compobrar</button>
-        <button onclick="cargar()">cargar</button>
     </div>
 </body>
 </html>
