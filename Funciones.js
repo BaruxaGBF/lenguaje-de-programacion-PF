@@ -1,3 +1,3 @@
 function documentacion(){
-    location.href ="Documentacion.html"
+    location.href = "Documentacion.html";
 }

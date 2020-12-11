@@ -21,7 +21,7 @@ body{
 .header div #documentacion{
     position: fixed;
     top: 0.25cm;
-    margin-left: 0cm;
+    margin-left: 7cm;
 }
 
 body #contenedor-botones{
@@ -43,6 +43,7 @@ body #contenedor-botones{
 }
 
 #b-lenguaje{
+    margin-left: 3cm;
     height: 30px;
     width: 100px;
     background-color:rgb(98, 216, 98);
@@ -62,11 +63,15 @@ body #contenedor-botones{
     border:solid 2px burlywood;
 }
 
+#b-documentacion, #b-lenguaje{
+    margin: 0 0.3cm;
+}
+
 #inputprincipal{
     resize: none;
     border-color: gray;
     width: 45%;
-    min-height: 200px;
+    height: 300px;
     padding: 0.5cm;
     font-size: 18px;
     font-family: tahoma;
