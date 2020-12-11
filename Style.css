@@ -100,8 +100,7 @@ body #contenedor-b-enlaces{
     border-width: 1px;
     border-color:#CFD3C9;
     border-top: white;
-    padding-top: 0.3cm;
-    height: 1.1cm;
+    height: 1.4cm;
 }
 
 #contenedor-documentacion{
@@ -130,6 +129,23 @@ h3{
     color: rgb(41, 41, 41); 
 }
 
-#contenedor-documentacion img{
+body #contenedor-documentacion img{
     margin-left: 2cm;
+}
+
+#contenedor-b-enlaces{
+    display: flex;
+}
+
+#contenedor-b-enlaces a{
+    font-size: 18px;
+    font-family: tahoma;
+    color: black;
+    padding: 0 1.25cm;
+    padding-top: 0.25cm;
+    justify-content: center;
+}
+
+body #contenedor-b-enlaces a:hover{
+    background-color: #CFD3C9;
 }
