@@ -21,7 +21,7 @@ body{
 .header div #documentacion{
     position: fixed;
     top: 0.25cm;
-    margin-left: 7cm;
+    margin-left: 1.5cm;
 }
 
 body #contenedor-botones{
@@ -108,7 +108,7 @@ body #contenedor-b-enlaces{
 }
 
 h1{
-    margin-left: 23.5%;
+    
     font-size: 26px;
     font-family: tahoma;
     color: black;
