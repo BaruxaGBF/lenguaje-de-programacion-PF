@@ -1,0 +1,15 @@
+if= si cumple
+else= no cumple
+do= hacer
+while= hasta que
+for = ciclof
+var = Tdato
+asignacion = <-
+class = molde
+function = algoritmo
+++= plus
+--=less
+<=menor|
+>=mayor|
+<= = menor|=
+>= = mayor|=
