@@ -42,13 +42,14 @@ body #contenedor-botones{
     margin-top: 5cm;
 }
 
-#b-interpretar{
-    margin-left: 3cm;
-    height: 30px;
-    width: 120px;
+div #b-interpretar{
+    margin-top: 1cm;
+    margin-left:-23cm;
+    height: 50px;
+    width: 200px;
     background-color:rgb(98, 216, 98);
     font-family: tahoma;
-    font-size: 18px;
+    font-size: 23px;
     border-radius: 5px;
     border:solid 2px rgb(98, 216, 98);
 }
@@ -95,13 +96,6 @@ body #contenedor-botones{
     font-family:tahoma;
 }    
 
-#resul{
-    color: black;
-    font-size: 20px;
-    font-family:tahoma;
-    
-}
-
 .tipo1{
     border-radius: 9px;
     height: 1cm;
@@ -111,6 +105,8 @@ body #contenedor-botones{
     font-size: 20px;
     font-family:tahoma;
     background-color:rgb(98, 216, 98);
+    margin-left:-8cm;
+    margin-top: -1.65cm;
 }
 
 .tipo2{
@@ -122,6 +118,8 @@ body #contenedor-botones{
     font-size: 20px;
     font-family:tahoma;
     background-color: rgb(255, 132, 132);
+    margin-left:-8cm;
+    margin-top: -1.65cm;
 }
 
 .tipo3{
@@ -133,39 +131,24 @@ body #contenedor-botones{
     font-size: 20px;
     font-family:tahoma;
     background-color: #FFA533;
+    margin-left:-8cm;
+    margin-top: -1.65cm;
 }
 .tipo1 p{
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     padding-top: 0.15cm;
 }
 
 .tipo2 p{
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     padding-top: 0.15cm;
 }
 
 .tipo3 p{
-     margin-top: 1.5cm;
+     margin-top: 0.5cm;
     padding-top: 0.15cm;
 }
 
-.res{
-    
-    border: solid 2px black;;
-    border-radius: 9px;
-    margin-left:7cm ;
-    width: 40%;
-    height: 338px;
-    margin-top: -9.1cm;
-    margin-left: 19cm;
-}
-
-h4{
-    margin-top: 2cm;
-    font-size: 26px;
-    font-family: tahoma;
-    color: black;
-}
 /* codigo de la pagina de Documentacion.html */
 
 body #contenedor-b-enlaces{
