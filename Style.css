@@ -86,8 +86,86 @@ body #contenedor-botones{
     padding: 0.5cm;
     font-size: 18px;
     font-family: tahoma;
+    margin-left: 1cm;
 }
 
+#parrafo-bueno-o-malo{
+    color: black;
+    font-size: 20px;
+    font-family:tahoma;
+}    
+
+#resul{
+    color: black;
+    font-size: 20px;
+    font-family:tahoma;
+    
+}
+
+.tipo1{
+    border-radius: 9px;
+    height: 1cm;
+    padding-left: 0.45cm;
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    font-family:tahoma;
+    background-color:rgb(98, 216, 98);
+}
+
+.tipo2{
+    border-radius: 9px;
+    height: 1cm;
+    padding-left: 0.3cm;
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    font-family:tahoma;
+    background-color: rgb(255, 132, 132);
+}
+
+.tipo3{
+    border-radius: 9px;
+    height: 1cm;
+    padding-left: 0.3cm;
+    width: 280px;
+    color: black;
+    font-size: 20px;
+    font-family:tahoma;
+    background-color: #FFA533;
+}
+.tipo1 p{
+    margin-top: 1.5cm;
+    padding-top: 0.15cm;
+}
+
+.tipo2 p{
+    margin-top: 1.5cm;
+    padding-top: 0.15cm;
+}
+
+.tipo3 p{
+     margin-top: 1.5cm;
+    padding-top: 0.15cm;
+}
+
+.res{
+    
+    border: solid 2px black;;
+    border-radius: 9px;
+    margin-left:7cm ;
+    width: 40%;
+    height: 338px;
+    margin-top: -9.1cm;
+    margin-left: 19cm;
+}
+
+h4{
+    margin-top: 2cm;
+    font-size: 26px;
+    font-family: tahoma;
+    color: black;
+}
 /* codigo de la pagina de Documentacion.html */
 
 body #contenedor-b-enlaces{

@@ -4,12 +4,24 @@ function documentacion(){
 
 
 function interpretar(){
-    try {
-        Comp.parse(document.getElementById("inputprincipal").value);
-        document.getElementById("inputprincipal").style.border="solid 1px blue";//cammbia de color si es correcto el textarea
-    } catch (error) {
-        document.getElementById("inputprincipal").style.border="solid 1px red";//cambia de color si es incorrecto el textarea
+    var elemento = document.getElementById("parrafo-bueno-o-malo");
+    if(document.getElementById("inputprincipal").value!=""){
+        try {
+            Comp.parse(document.getElementById("inputprincipal").value);
+            document.getElementById("inputprincipal").style.border="solid 2px green";//cammbia de color si es correcto el textarea
+            elemento.className = "tipo1";
+            document.getElementById("parrafo-bueno-o-malo").innerHTML = "<p>Entrada Validada Correctamente</p>";
+        } catch (error) {
+            document.getElementById("inputprincipal").style.border="solid 2px red";//cambia de color si es incorrecto el textarea
+            elemento.className = "tipo2";
+            document.getElementById("parrafo-bueno-o-malo").innerHTML = "<p>Entrada Con errores</p>";
+        }
+    }else{
+        document.getElementById("inputprincipal").style.border="solid 2px orange";
+        elemento.className = "tipo3";
+        document.getElementById("parrafo-bueno-o-malo").innerHTML = "<p>Ingrese Código a Validar</p>";
     }
+    
 
 }
 
